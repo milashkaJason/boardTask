@@ -1,0 +1,33 @@
+.board {
+    display: flex;
+    background-color: aqua;
+    margin: 0 auto;
+    width: 700px;
+    padding: 20px;
+}
+.board__column1,
+.board__column2,
+.board__column3 {
+    min-width: 200px;
+    background: bisque;
+    margin: 0 20px;
+    border-radius: 3px;
+    border-color: black;
+    min-height: 500px;
+}
+.item {
+    width: 180px;
+    min-height: 50px;
+    border-radius: 3px;
+    background-color: blueviolet;
+    margin: 10px auto;
+}
+.one {
+    background: darkturquoise;
+}
+.two {
+    background: bisque;
+}
+.tree {
+    background: darkkhaki;
+}
